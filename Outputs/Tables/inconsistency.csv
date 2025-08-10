@@ -1,0 +1,52 @@
+,ID del Cliente,Zona,Canal,Producto,Monto de Venta,Edad del Cliente,¿Capacitado?,Inversión en Publicidad,Mes,Asesor,% Cumplimiento Objetivo,% Clientes Nuevos,Participación en Campañas,Antigüedad del Asesor (meses)
+0,C00020,Centro,Desconocido,Plan Retiro,11729.6,62,Sí,3268.62,Abril,A21,-5.0,0.89,Baja,8
+1,C00027,Desconocido,Desconocido,Ahorro Plus,15423.91,28,No,2954.45,Abril,A36,-5.0,0.66,Ninguna,53
+2,C00061,Este,Digital,Plan Retiro,14466.74,-1,No,2922.42,Marzo,A40,93.07,0.5,Alta,18
+3,C00101,Centro,Sucursal,Plan Retiro,11055.3,-1,Sí,3626.47,Enero,A4,71.37,0.34,Baja,56
+4,C00127,Este,Desconocido,Inversión Segura,10178.53,-1,No,2885.98,Mayo,A30,82.51,0.85,Ninguna,25
+5,C00151,Sur,Desconocido,Ahorro Plus,12927.71,-1,Sí,,Mayo,A47,76.93,0.7,Ninguna,9
+6,C00167,Desconocido,Digital,Inversión Segura,21353.5,-1,No,1160.79,Abril,A27,100.27,0.38,Media,51
+7,C00236,Oeste,Desconocido,Inversión Segura,15127.13,54,No,1617.7,Abril,A14,-5.0,0.69,Media,10
+8,C00263,Desconocido,Agente,Ahorro Plus,11505.25,-1,No,1014.4,Abril,A8,123.74,0.47,Baja,54
+9,C00286,Desconocido,Desconocido,Plan Retiro,18117.61,-1,Sí,1942.4,Enero,A8,-5.0,0.89,Alta,56
+10,C00327,Norte,Desconocido,Inversión Segura,23417.73,-1,No,1923.02,Mayo,A44,78.55,0.24,Baja,41
+11,C00342,Desconocido,Agente,Plan Retiro,15431.78,-1,Desconocido,4139.64,Mayo,A15,100.67,0.89,Ninguna,52
+12,C00359,Desconocido,Sucursal,Ahorro Plus,11750.89,37,No,2942.16,Mayo,A50,-5.0,0.52,Alta,28
+13,C00363,Desconocido,Sucursal,Ahorro Plus,12089.44,46,No,4465.58,Mayo,A1,-5.0,0.29,Alta,36
+14,C00372,Desconocido,Call Center,Ahorro Plus,12594.63,42,No,3175.58,Mayo,A16,-5.0,0.54,Baja,25
+15,C00377,Este,Agente,Ahorro Plus,11916.97,-1,No,1063.69,Marzo,A2,98.58,0.2,Baja,12
+16,C00379,Desconocido,Desconocido,Plan Retiro,8116.35,-1,No,,Marzo,A38,86.0,0.38,Ninguna,40
+17,C00385,Desconocido,Desconocido,Plan Retiro,22486.84,-1,Sí,3061.33,Enero,A37,98.89,0.29,Media,17
+18,C00409,Sur,Desconocido,Ahorro Plus,16558.51,-1,Sí,2812.34,Marzo,A7,87.98,0.71,Baja,18
+19,C00416,Oeste,Desconocido,Ahorro Plus,-1934.07,68,No,3091.87,Mayo,A39,85.3,0.23,Ninguna,33
+20,C00513,Desconocido,Desconocido,Ahorro Plus,15347.74,-1,Sí,3365.5,Marzo,A42,80.83,0.76,Ninguna,30
+21,C00584,Desconocido,Desconocido,Inversión Segura,16767.15,-1,Sí,2788.96,Marzo,A10,103.19,0.5,Alta,51
+22,C00587,Desconocido,Sucursal,Plan Retiro,15553.41,64,Sí,3662.87,Marzo,A46,-5.0,0.49,Alta,57
+23,C00594,Sur,Agente,Inversión Segura,11097.3,63,No,,Abril,A32,-5.0,0.3,Ninguna,53
+24,C00620,Desconocido,Desconocido,Ahorro Plus,16743.45,-1,Desconocido,2114.03,Enero,A16,52.82,0.59,Alta,41
+25,C00659,Norte,Agente,Ahorro Plus,19686.96,28,Sí,594.29,Enero,A42,-5.0,0.64,Media,8
+26,C00666,Oeste,Desconocido,Plan Retiro,19103.8,-1,No,4310.76,Marzo,A39,81.38,0.75,Ninguna,54
+27,C00670,Desconocido,Desconocido,Ahorro Plus,13625.51,23,No,2854.44,Enero,A22,-5.0,0.12,Media,41
+28,C00705,Centro,Sucursal,Inversión Segura,22230.97,-1,Sí,3975.13,Abril,A28,94.78,0.21,Ninguna,45
+29,C00733,Sur,Desconocido,Plan Retiro,16948.0,-1,Sí,4511.08,Marzo,A19,121.58,0.64,Ninguna,51
+30,C00741,Este,Digital,Plan Retiro,17828.44,-1,Desconocido,2188.93,Enero,A28,102.5,0.12,Alta,7
+31,C00748,Sur,Call Center,Ahorro Plus,18669.95,66,No,4159.61,Mayo,A15,-5.0,0.36,Baja,33
+32,C00762,Norte,Sucursal,Plan Retiro,13703.04,23,Sí,3395.68,Abril,A16,-5.0,0.45,Media,33
+33,C00775,Norte,Sucursal,Inversión Segura,16169.74,-1,No,3666.13,Enero,A10,70.12,0.28,Alta,10
+34,C00778,Desconocido,Sucursal,Ahorro Plus,19475.04,-1,No,3663.86,Marzo,A38,78.84,0.78,Alta,40
+35,C00817,Desconocido,Desconocido,Ahorro Plus,18509.25,52,Sí,-131.74,Marzo,A6,85.93,0.27,Alta,31
+36,C00818,Desconocido,Agente,Plan Retiro,14690.24,-1,No,4457.68,Febrero,A10,83.04,0.62,Baja,25
+37,C00832,Norte,Desconocido,Ahorro Plus,26181.42,35,No,4249.78,Febrero,A48,-5.0,0.39,Ninguna,49
+38,C00851,Centro,Desconocido,Ahorro Plus,15208.61,39,No,3162.58,Mayo,A37,-5.0,0.31,Alta,35
+39,C00914,Desconocido,Desconocido,Ahorro Plus,11456.07,-1,Desconocido,3801.76,Abril,A16,88.14,0.23,Baja,51
+40,C00949,Desconocido,Sucursal,Ahorro Plus,8090.02,60,No,2038.63,Febrero,A14,-5.0,0.49,Media,6
+41,C00957,Este,Desconocido,Ahorro Plus,19322.65,-1,Sí,3041.23,Marzo,A44,102.4,0.56,Ninguna,42
+42,C00995,Desconocido,Sucursal,Inversión Segura,11923.85,-1,Sí,2961.81,Enero,A48,104.66,0.67,Alta,2
+43,C01020,Oeste,Desconocido,Inversión Segura,16148.5,-1,Sí,5650.99,Febrero,A50,99.56,0.72,Media,6
+44,C01054,Desconocido,Digital,Ahorro Plus,11337.66,67,Sí,3533.01,Mayo,A12,-5.0,0.79,Ninguna,19
+45,C01101,Desconocido,Call Center,Ahorro Plus,12558.04,33,No,1286.36,Marzo,A45,-5.0,0.16,Media,45
+46,C01112,Desconocido,Sucursal,Plan Retiro,9594.31,53,Sí,2608.37,Febrero,A18,-5.0,0.51,Media,1
+47,C01150,Oeste,Sucursal,Inversión Segura,11842.58,-1,Sí,3724.42,Febrero,A46,89.91,0.12,Alta,55
+48,C01154,Sur,Agente,Inversión Segura,11804.38,-1,No,3229.82,Mayo,A24,101.39,0.35,Baja,52
+49,C01166,Desconocido,Sucursal,Plan Retiro,13139.56,-1,No,2170.27,Marzo,A49,103.54,0.8,Media,44
+50,C01182,Desconocido,Agente,Ahorro Plus,13172.31,52,Sí,2343.04,Febrero,A22,-5.0,0.41,Media,54
