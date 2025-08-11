@@ -40,7 +40,7 @@ df['Mes'] = pd.Categorical(
 
 # ========== Filtro de Análisis ============
 
-analisis = ['Análisis de ventas por categoría', 'Análisis de Asesores', 'Análisis de cliente vs publicidad']
+analisis = ['Análisis de ventas por categoría', 'Análisis de Asesores', 'Análisis de cliente vs publicidad', 'Conclusiones']
 st.sidebar.title('🧭 Menú de análisis')
 section = st.sidebar.radio('Selecciona:', analisis)
 
@@ -52,7 +52,7 @@ colores_capacitacion = {
 }
 colores_base = ['#31572c', '#4f772d', '#90a955', '#ecf39e', '#fefae0']
 
-# ===================== 1️⃣ Análisis de ventas =====================
+# ===================== 1 Análisis de ventas =====================
 if section == 'Análisis de ventas por categoría':
     zonas_disponibles = sorted(df['Zona'].unique())
     zonas_select = st.multiselect('🏙️ Selecciona Zonas:', zonas_disponibles, default=zonas_disponibles)
@@ -81,7 +81,7 @@ if section == 'Análisis de ventas por categoría':
     )
     st.plotly_chart(fig_linea)
 
-# ===================== 2️⃣ Análisis de Asesores =====================
+# ===================== 2 Análisis de Asesores =====================
 elif section == 'Análisis de Asesores':
     st.subheader("🏆 Top 10 Asesores por Monto de Venta")
     df_top = (df.groupby('Asesor')['Monto de Venta']
@@ -115,7 +115,7 @@ elif section == 'Análisis de Asesores':
     )
     st.plotly_chart(fig3)
 
-# ===================== 3️⃣ Cliente vs Publicidad =====================
+# ===================== 3 Cliente vs Publicidad =====================
 elif section == 'Análisis de cliente vs publicidad':
     st.subheader("🎯 % Clientes Nuevos vs Inversión en Publicidad")
 
@@ -136,3 +136,35 @@ elif section == 'Análisis de cliente vs publicidad':
         color_discrete_sequence=colores_base
     )
     st.plotly_chart(fig2)
+
+# ===================== 4 Conclusiones =====================
+elif section == 'Conclusiones':
+    st.subheader("📊 Top 5 factores más asociados al crecimiento comercial")
+
+    # Variable objetivo para medir el crecimiento (puedes cambiarla)
+    target = 'Monto de Venta'
+
+    # Filtrar solo variables numéricas
+    df_numeric = df.select_dtypes(include='number')
+
+    # Calcular correlaciones absolutas con la variable objetivo
+    corr = df_numeric.corr()[target].drop(target).abs()
+
+    # Seleccionar las Top 5
+    top5 = corr.sort_values(ascending=False).head(5).reset_index()
+    top5.columns = ['Factor', 'Correlación']
+
+    # Mostrar tabla
+    st.dataframe(top5.style.format({'Correlación': '{:.2f}'}))
+
+    # Gráfico
+    fig = px.bar(
+        top5, x='Correlación', y='Factor', orientation='h',
+        color='Correlación', color_continuous_scale='Viridis'
+    )
+    fig.update_layout(
+        xaxis_title='Correlación absoluta',
+        yaxis_title='Factor',
+        yaxis=dict(categoryorder='total ascending')
+    )
+    st.plotly_chart(fig)
