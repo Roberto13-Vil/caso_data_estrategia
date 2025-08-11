@@ -11,7 +11,8 @@ def load_data():
 st.set_page_config(page_title='Dashboard', layout='wide', page_icon="📊")
 st.title('Dashboard de Caso y Estrategia')
 st.markdown("""
-Este dashboard presenta un analisis de los datos relacionados con el caso Data y Estrategia.
+Bienvenido/a a este recorrido interactivo.  
+En esta presentación exploraremos patrones clave en ventas, desempeño de asesores y relación con inversión en publicidad.
             """)
 
 # ========== Estilos ============
