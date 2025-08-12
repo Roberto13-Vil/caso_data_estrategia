@@ -141,23 +141,17 @@ elif section == 'Análisis de cliente vs publicidad':
 elif section == 'Conclusiones':
     st.subheader("📊 Top 5 factores más asociados al crecimiento comercial")
 
-    # Variable objetivo para medir el crecimiento (puedes cambiarla)
     target = 'Monto de Venta'
 
-    # Filtrar solo variables numéricas
     df_numeric = df.select_dtypes(include='number')
 
-    # Calcular correlaciones absolutas con la variable objetivo
     corr = df_numeric.corr()[target].drop(target).abs()
 
-    # Seleccionar las Top 5
     top5 = corr.sort_values(ascending=False).head(5).reset_index()
     top5.columns = ['Factor', 'Correlación']
 
-    # Mostrar tabla
     st.dataframe(top5.style.format({'Correlación': '{:.2f}'}))
 
-    # Gráfico
     fig = px.bar(
         top5, x='Correlación', y='Factor', orientation='h',
         color='Correlación', color_continuous_scale='Viridis'
